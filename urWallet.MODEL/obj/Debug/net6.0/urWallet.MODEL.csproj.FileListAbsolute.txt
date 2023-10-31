@@ -1,0 +1,11 @@
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\bin\Debug\net6.0\urWallet.MODEL.deps.json
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\bin\Debug\net6.0\urWallet.MODEL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\bin\Debug\net6.0\urWallet.MODEL.pdb
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.AssemblyInfoInputs.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.AssemblyInfo.cs
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.csproj.CoreCompileInputs.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\refint\urWallet.MODEL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\urWallet.MODEL.pdb
+C:\Users\caual\source\repos\urWallet.01\urWallet.MODEL\obj\Debug\net6.0\ref\urWallet.MODEL.dll

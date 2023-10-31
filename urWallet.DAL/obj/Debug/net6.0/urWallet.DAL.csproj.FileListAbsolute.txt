@@ -1,0 +1,17 @@
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.DAL.deps.json
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.DAL.runtimeconfig.json
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.DAL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.DAL.pdb
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.csproj.AssemblyReference.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.AssemblyInfoInputs.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.AssemblyInfo.cs
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.csproj.CoreCompileInputs.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\refint\urWallet.DAL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.pdb
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.genruntimeconfig.cache
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\ref\urWallet.DAL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.MODEL.dll
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\bin\Debug\net6.0\urWallet.MODEL.pdb
+C:\Users\caual\source\repos\urWallet.01\urWallet.DAL\obj\Debug\net6.0\urWallet.DAL.csproj.CopyComplete
