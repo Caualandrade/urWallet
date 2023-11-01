@@ -15,6 +15,10 @@ public partial class CUsersCaualSourceReposUrwallet01UrwalletDalDatabaseDatabase
     {
     }
 
+    public virtual DbSet<Financa> Financas { get; set; }
+
+    public virtual DbSet<UserFinanca> UserFinancas { get; set; }
+
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -23,6 +27,50 @@ public partial class CUsersCaualSourceReposUrwallet01UrwalletDalDatabaseDatabase
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Financa>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__financas__3214EC07AA302CC7");
+
+            entity.ToTable("financas");
+
+            entity.Property(e => e.Categoria)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("categoria");
+            entity.Property(e => e.Data)
+                .HasColumnType("date")
+                .HasColumnName("data");
+            entity.Property(e => e.Descricao)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+            entity.Property(e => e.Tipo)
+                .HasMaxLength(7)
+                .IsUnicode(false)
+                .HasColumnName("tipo");
+            entity.Property(e => e.Valor)
+                .HasColumnType("decimal(18, 2)")
+                .HasColumnName("valor");
+        });
+
+        modelBuilder.Entity<UserFinanca>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__userFina__3214EC07C0ACA133");
+
+            entity.ToTable("userFinanca");
+
+            entity.Property(e => e.IdFinanca).HasColumnName("id_financa");
+            entity.Property(e => e.IdUser).HasColumnName("id_user");
+
+            entity.HasOne(d => d.IdFinancaNavigation).WithMany(p => p.UserFinancas)
+                .HasForeignKey(d => d.IdFinanca)
+                .HasConstraintName("FK__userFinan__id_fi__5CD6CB2B");
+
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.UserFinancas)
+                .HasForeignKey(d => d.IdUser)
+                .HasConstraintName("FK__userFinan__id_us__5DCAEF64");
+        });
+
         modelBuilder.Entity<Usuario>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Usuarios__3214EC0732258A22");

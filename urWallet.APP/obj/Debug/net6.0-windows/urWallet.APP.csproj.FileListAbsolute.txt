@@ -69,3 +69,4 @@ C:\Users\caual\source\repos\urWallet.01\urWallet.APP\obj\Debug\net6.0-windows\ur
 C:\Users\caual\source\repos\urWallet.01\urWallet.APP\obj\Debug\net6.0-windows\urWallet.APP.csproj.CopyComplete
 C:\Users\caual\source\repos\urWallet.01\urWallet.APP\obj\Debug\net6.0-windows\urWallet.APP.telaCadastro.resources
 C:\Users\caual\source\repos\urWallet.01\urWallet.APP\obj\Debug\net6.0-windows\urWallet.APP.telaLogin.resources
+C:\Users\caual\source\repos\urWallet.01\urWallet.APP\obj\Debug\net6.0-windows\urWallet.APP.telaFinanca.resources

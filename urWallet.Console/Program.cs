@@ -11,8 +11,8 @@ user.Senha = "abc";
 user.Saldo = (decimal?)0.0;
 
 
-Boolean ver = UsuarioRepository.verificarUsuario(user);
-Console.WriteLine(ver);
+//Boolean ver = UsuarioRepository.verificarUsuario(user);
+//Console.WriteLine(ver);
 
 
 // UsuarioRepository usuarios = new UsuarioRepository();

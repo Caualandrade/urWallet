@@ -12,4 +12,6 @@ public partial class Usuario
     public string Senha { get; set; } = null!;
 
     public decimal? Saldo { get; set; }
+
+    public virtual ICollection<UserFinanca> UserFinancas { get; set; } = new List<UserFinanca>();
 }

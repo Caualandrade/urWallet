@@ -28,68 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
+            label4 = new Label();
             label2 = new Label();
             label3 = new Label();
-            button2 = new Button();
+            button1 = new Button();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
-            // textBox1
+            // label4
             // 
-            textBox1.Location = new Point(136, 109);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(151, 23);
-            textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(136, 190);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(151, 23);
-            textBox2.TabIndex = 8;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(56, 113);
-            label1.Name = "label1";
-            label1.Size = new Size(69, 19);
-            label1.TabIndex = 9;
-            label1.Text = "Usuário";
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(72, 138);
+            label4.Name = "label4";
+            label4.Size = new Size(48, 16);
+            label4.TabIndex = 15;
+            label4.Text = "Senha";
+            label4.Click += label4_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(56, 193);
+            label2.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(72, 90);
             label2.Name = "label2";
-            label2.Size = new Size(58, 19);
-            label2.TabIndex = 10;
-            label2.Text = "Senha";
+            label2.Size = new Size(43, 16);
+            label2.TabIndex = 14;
+            label2.Text = "Email";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Cooper Black", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(146, 36);
+            label3.Font = new Font("Cooper Black", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(94, 33);
             label3.Name = "label3";
-            label3.Size = new Size(136, 31);
-            label3.TabIndex = 12;
+            label3.Size = new Size(177, 40);
+            label3.TabIndex = 13;
             label3.Text = "urWallet";
+            label3.Click += label3_Click;
             // 
-            // button2
+            // button1
             // 
-            button2.BackColor = Color.Transparent;
-            button2.Location = new Point(146, 251);
-            button2.Name = "button2";
-            button2.Size = new Size(97, 33);
-            button2.TabIndex = 13;
-            button2.Text = "Cadastrar";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            button1.Location = new Point(72, 194);
+            button1.Name = "button1";
+            button1.Size = new Size(220, 29);
+            button1.TabIndex = 12;
+            button1.Text = "Cadastrar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.Location = new Point(72, 159);
+            textBox2.Margin = new Padding(5);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(220, 22);
+            textBox2.TabIndex = 11;
+            textBox2.TextChanged += textBox2_TextChanged;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(72, 111);
+            textBox1.Margin = new Padding(5);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(220, 22);
+            textBox1.TabIndex = 10;
+            textBox1.Tag = "";
+            textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // telaCadastro
             // 
@@ -97,10 +106,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(384, 361);
-            Controls.Add(button2);
-            Controls.Add(label3);
+            Controls.Add(label4);
             Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(label3);
+            Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "telaCadastro";
@@ -111,11 +120,11 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label1;
+        private Label label4;
         private Label label2;
         private Label label3;
-        private Button button2;
+        private Button button1;
+        private TextBox textBox2;
+        private TextBox textBox1;
     }
 }

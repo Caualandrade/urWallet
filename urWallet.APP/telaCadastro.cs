@@ -22,13 +22,53 @@ namespace urWallet.APP
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             string user = textBox1.Text;
             string senha = textBox2.Text;
             Usuario usuario = new Usuario();
             usuario.user = user;
             usuario.Senha = senha;
-            UsuarioRepository.Add(usuario);
-            MessageBox.Show("Usuário adicionado com sucesso");
+            usuario.Saldo = (decimal?)0;
+            if (UsuarioRepository.verificarUsuario(usuario))
+            {
+                MessageBox.Show("Usuário já cadastrado");
+            }
+            else
+            {
+                UsuarioRepository.Add(usuario);
+                MessageBox.Show("Usuário adicionado com sucesso");
+            }
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
         }
     }
 }
